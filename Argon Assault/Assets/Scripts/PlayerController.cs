@@ -8,7 +8,6 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-
     /* [SerializeField] InputAction movement;  New Input System*/
    
     void Start()
