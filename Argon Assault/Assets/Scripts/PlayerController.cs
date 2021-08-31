@@ -1,18 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+/*
+ * New Input System
 using UnityEngine.InputSystem;
+*/
 
 public class PlayerController : MonoBehaviour
 {
 
-    [SerializeField] InputAction movement;
+    /* [SerializeField] InputAction movement;  New Input System*/
    
     void Start()
     {
         
     }
-
+    /*
+     * New Input System
     private void OnEnable()
     {
         movement.Enable();
@@ -21,19 +25,20 @@ public class PlayerController : MonoBehaviour
     private void OnDisable()
     {
         movement.Disable();
-    }
+    }*/
 
     void Update()
     {
+        /*
+         * New Input System
         float horizontalThrow = movement.ReadValue<Vector2>().x;
         float verticalThrow = movement.ReadValue<Vector2>().y;
-        Debug.Log(horizontalThrow);
-        Debug.Log(verticalThrow);
+        */
 
-        /*float horizontalThrow = Input.GetAxis("Horizontal");
-        Debug.Log(horizontalThrow);
+        float xThrow = Input.GetAxis("Horizontal");
+        Debug.Log(xThrow);
 
-        float verticalThrow = Input.GetAxis("Vertical");
-        Debug.Log(verticalThrow);*/
+        float yThrow = Input.GetAxis("Vertical");
+        Debug.Log(yThrow);
     }
 }

@@ -607,15 +607,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1646988785193900, guid: d2fa71964585a4e42a49798579f79b5b, type: 3}
       propertyPath: movement.m_SingletonActionBindings.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1646988785193900, guid: d2fa71964585a4e42a49798579f79b5b, type: 3}
-      propertyPath: movement.m_Id
-      value: 7a0c42a3-e149-4694-a735-5020cb0389d9
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1646988785193900, guid: d2fa71964585a4e42a49798579f79b5b, type: 3}
       propertyPath: movement.m_Name
       value: Movement
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646988785193900, guid: d2fa71964585a4e42a49798579f79b5b, type: 3}
+      propertyPath: movement.m_Id
+      value: 7a0c42a3-e149-4694-a735-5020cb0389d9
       objectReference: {fileID: 0}
     - target: {fileID: 1646988785193900, guid: d2fa71964585a4e42a49798579f79b5b, type: 3}
       propertyPath: movement.m_SingletonActionBindings.Array.data[0].m_Name
@@ -646,6 +646,10 @@ PrefabInstance:
       value: b11f056c-739a-4345-a125-d7ff66118372
       objectReference: {fileID: 0}
     - target: {fileID: 1646988785193900, guid: d2fa71964585a4e42a49798579f79b5b, type: 3}
+      propertyPath: movement.m_SingletonActionBindings.Array.data[1].m_Path
+      value: <Keyboard>/w
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646988785193900, guid: d2fa71964585a4e42a49798579f79b5b, type: 3}
       propertyPath: movement.m_SingletonActionBindings.Array.data[1].m_Action
       value: Movement
       objectReference: {fileID: 0}
@@ -660,6 +664,10 @@ PrefabInstance:
     - target: {fileID: 1646988785193900, guid: d2fa71964585a4e42a49798579f79b5b, type: 3}
       propertyPath: movement.m_SingletonActionBindings.Array.data[2].m_Id
       value: 2587694b-6ea2-4930-93f1-30fde939ad10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646988785193900, guid: d2fa71964585a4e42a49798579f79b5b, type: 3}
+      propertyPath: movement.m_SingletonActionBindings.Array.data[2].m_Path
+      value: <Keyboard>/s
       objectReference: {fileID: 0}
     - target: {fileID: 1646988785193900, guid: d2fa71964585a4e42a49798579f79b5b, type: 3}
       propertyPath: movement.m_SingletonActionBindings.Array.data[2].m_Action
@@ -678,6 +686,10 @@ PrefabInstance:
       value: 6e560e79-0ffc-4e3e-8d75-4226aa6a5b04
       objectReference: {fileID: 0}
     - target: {fileID: 1646988785193900, guid: d2fa71964585a4e42a49798579f79b5b, type: 3}
+      propertyPath: movement.m_SingletonActionBindings.Array.data[3].m_Path
+      value: <Keyboard>/a
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646988785193900, guid: d2fa71964585a4e42a49798579f79b5b, type: 3}
       propertyPath: movement.m_SingletonActionBindings.Array.data[3].m_Action
       value: Movement
       objectReference: {fileID: 0}
@@ -694,6 +706,10 @@ PrefabInstance:
       value: 0d46db22-4eab-4556-8a1a-c3249232e1f5
       objectReference: {fileID: 0}
     - target: {fileID: 1646988785193900, guid: d2fa71964585a4e42a49798579f79b5b, type: 3}
+      propertyPath: movement.m_SingletonActionBindings.Array.data[4].m_Path
+      value: <Keyboard>/d
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646988785193900, guid: d2fa71964585a4e42a49798579f79b5b, type: 3}
       propertyPath: movement.m_SingletonActionBindings.Array.data[4].m_Action
       value: Movement
       objectReference: {fileID: 0}
@@ -702,20 +718,16 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1646988785193900, guid: d2fa71964585a4e42a49798579f79b5b, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[1].m_Path
-      value: <Keyboard>/w
+      propertyPath: movement.m_SingletonActionBindings.Array.data[5].m_Id
+      value: eb09d047-f1a7-4a58-a489-924c17ac4463
       objectReference: {fileID: 0}
     - target: {fileID: 1646988785193900, guid: d2fa71964585a4e42a49798579f79b5b, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[2].m_Path
-      value: <Keyboard>/s
+      propertyPath: movement.m_SingletonActionBindings.Array.data[5].m_Action
+      value: Movement
       objectReference: {fileID: 0}
     - target: {fileID: 1646988785193900, guid: d2fa71964585a4e42a49798579f79b5b, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[3].m_Path
-      value: <Keyboard>/a
-      objectReference: {fileID: 0}
-    - target: {fileID: 1646988785193900, guid: d2fa71964585a4e42a49798579f79b5b, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[4].m_Path
-      value: <Keyboard>/d
+      propertyPath: movement.m_SingletonActionBindings.Array.data[5].m_Path
+      value: <Gamepad>/leftStick
       objectReference: {fileID: 0}
     - target: {fileID: 3712629187785038768, guid: d2fa71964585a4e42a49798579f79b5b, type: 3}
       propertyPath: m_LocalPosition.x
