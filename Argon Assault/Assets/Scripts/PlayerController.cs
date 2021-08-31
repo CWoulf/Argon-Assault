@@ -35,9 +35,11 @@ public class PlayerController : MonoBehaviour
         */
 
         float xThrow = Input.GetAxis("Horizontal");
-        Debug.Log(xThrow);
-
         float yThrow = Input.GetAxis("Vertical");
-        Debug.Log(yThrow);
+
+        float xOffset = xThrow *;
+        float newXPos = transform.localPosition.x + xOffset;
+
+        transform.localPosition = new Vector3(newXPos, transform.localPosition.y, transform.localPosition.z);
     }
 }
