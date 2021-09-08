@@ -605,10 +605,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 371560715}
     m_Modifications:
-    - target: {fileID: 1646988785193900, guid: d2fa71964585a4e42a49798579f79b5b, type: 3}
-      propertyPath: posYawFactor
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 3712629187785038768, guid: d2fa71964585a4e42a49798579f79b5b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
